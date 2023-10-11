@@ -3,12 +3,14 @@
 
 <head>
   <?php $this->load->view('blog/partials/header'); ?>
-  <?php $this->load->view('blog/partials/style');?>
+  <?php $this->load->view('blog/partials/style'); ?>
 </head>
 
 <body>
   <?php $this->load->view('blog/partials/navbar'); ?>
-  <h1>Ini Halaman "Faq"</h1>
+  <div class="container">
+    <h1>Ini Halaman "Faq"</h1>
+  </div>
   <?php $this->load->view('blog/partials/script'); ?>
 </body>
 
