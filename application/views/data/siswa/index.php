@@ -23,7 +23,8 @@
         <td><?= $number++;?>.</td>
         <td><?= $dt->nama_siswa;?></td>
         <td><?= $dt->julukan;?></td>
-        <td>
+        <td nowrap> 
+          <a href="<?= base_url();?>data/siswa_edit/<?= $dt->id;?>">Edit</a>
           <a href="<?= base_url();?>data/siswa_remove/<?= $dt->id;?>">Remove</a>
         </td>
       </tr>
